@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explicação sobre Links</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #f0f4f8, #d9e2ec);
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+    header {
+      background-color: #4a90e2;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+    }
+    .conteudo {
+      max-width: 1000px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 15px;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .links a {
+      text-decoration: none;
+      background-color: #4a90e2;
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 8px;
+      transition: background-color 0.3s;
+    }
+    .links a:hover {
+      background-color: #357ABD;
+    }
+    iframe {
+      width: 100%;
+      height: 400px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+    }
+    p {
+      line-height: 1.6;
+      text-align: justify;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Aprendendo sobre Links</h1>
+  </header>
+
+  <div class="conteudo">
+    <p>
+      Nesta página vamos aprender sobre links. Links são elementos clicáveis que levam você a outras páginas, arquivos ou recursos.
+      Abaixo temos três tipos de links diferentes para você explorar e, no final, um link para o exercício.
+    </p>
+
+    <div class="links">
+        <a href="links-externo.html" target="janela">Links Externos</a>
+        <a href="links-internos.html" target="janela">Links Internos</a>
+        <a href="links-download.html" target="janela">Links de Download</a>
+      <!-- Novo link para o exercício -->
+      <a href="exercicio-links.pdf" target="janela">Exercício sobre Links (PDF)</a>
+    </div>
+
+    <iframe name="janela" src="" title="Conteúdo dos links"></iframe>
+  </div>
+</body>
+</html>
