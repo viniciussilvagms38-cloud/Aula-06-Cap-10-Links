@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MVC</title>
+    <link rel="stylesheet" href="styles.css">
+    <main>
+        <section class="intro">
+            <h1>Oque e MVC?</h1>
+            <p>MVC é uma forma de organizar o código de uma aplicação. Ele divide o código em três partes: Model, View e Controller. O Model cuida dos dados, como pegar ou salvar informações no banco de dados. A View é o que o usuário vê na tela, como páginas de HTML ou formulários. O Controller recebe as ações do usuário, como clicar em um botão, e decide o que fazer com essas ações, pedindo ao Model para mudar os dados e depois atualizando a View. Esse padrão deixa o código mais organizado e facilita a manutenção e o crescimento do projeto.</p>
+        </section>
+        <p>Você também pode acessar a nossa <a href="noticias/pag003.html" rel="next">página de notícias</a></p>
+        
+</body>
+</html>
